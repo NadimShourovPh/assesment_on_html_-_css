@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px;
+    border: 3px dotted black;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    box-shadow: 5px 3px #cecccc
+}
+
+nav h1{
+    display: inline-block;
+}
+
+.list-item{
+    vertical-align: middle;
+
+
+}
+ nav .list-item li{
+    display: inline-block;
+ }
+ nav .list-item li:hover{
+    color: red;
+ }
+ 
